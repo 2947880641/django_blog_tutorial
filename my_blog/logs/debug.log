@@ -1,0 +1,418 @@
+(0.001) SELECT COUNT(*) AS "__count" FROM "article_articlepost"; args=()
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-11-21 09:10:37.638830' AND "django_session"."session_key" = '7gqhmbc7pw6k7rz66b9e6c6f7crhcd4e'); args=('2022-11-21 09:10:37.638830', '7gqhmbc7pw6k7rz66b9e6c6f7crhcd4e')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 5; args=(5,)
+(0.000) SELECT COUNT(*) AS "__count" FROM "notifications_notification" WHERE ("notifications_notification"."recipient_id" = 5 AND "notifications_notification"."unread" = 1); args=(5, True)
+(0.001) SELECT "article_articlepost"."id", "article_articlepost"."author_id", "article_articlepost"."column_id", "article_articlepost"."avatar", "article_articlepost"."title", "article_articlepost"."body", "article_articlepost"."created", "article_articlepost"."updated", "article_articlepost"."total_views" FROM "article_articlepost" ORDER BY "article_articlepost"."created" DESC  LIMIT 3; args=()
+(0.000) SELECT DISTINCT "taggit_tag"."id", "taggit_tag"."name", "taggit_tag"."slug" FROM "taggit_tag" INNER JOIN "taggit_taggeditem" ON ("taggit_tag"."id" = "taggit_taggeditem"."tag_id") WHERE ("taggit_taggeditem"."content_type_id" = 7 AND "taggit_taggeditem"."object_id" = 31); args=(7, 31)
+(0.000) SELECT COUNT(*) AS "__count" FROM "comment_comment" WHERE "comment_comment"."article_id" = 31; args=(31,)
+(0.000) SELECT "article_articlecolum"."id", "article_articlecolum"."title", "article_articlecolum"."created" FROM "article_articlecolum" WHERE "article_articlecolum"."id" = 2; args=(2,)
+(0.000) SELECT DISTINCT "taggit_tag"."id", "taggit_tag"."name", "taggit_tag"."slug" FROM "taggit_tag" INNER JOIN "taggit_taggeditem" ON ("taggit_tag"."id" = "taggit_taggeditem"."tag_id") WHERE ("taggit_taggeditem"."content_type_id" = 7 AND "taggit_taggeditem"."object_id" = 29); args=(7, 29)
+(0.000) SELECT COUNT(*) AS "__count" FROM "comment_comment" WHERE "comment_comment"."article_id" = 29; args=(29,)
+(0.000) SELECT "article_articlecolum"."id", "article_articlecolum"."title", "article_articlecolum"."created" FROM "article_articlecolum" WHERE "article_articlecolum"."id" = 1; args=(1,)
+(0.000) SELECT DISTINCT "taggit_tag"."id", "taggit_tag"."name", "taggit_tag"."slug" FROM "taggit_tag" INNER JOIN "taggit_taggeditem" ON ("taggit_tag"."id" = "taggit_taggeditem"."tag_id") WHERE ("taggit_taggeditem"."content_type_id" = 7 AND "taggit_taggeditem"."object_id" = 28); args=(7, 28)
+(0.000) SELECT COUNT(*) AS "__count" FROM "comment_comment" WHERE "comment_comment"."article_id" = 28; args=(28,)
+"GET /article/article-list/ HTTP/1.1" 200 14275
+(0.003) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-11-21 09:10:53.237692' AND "django_session"."session_key" = '7gqhmbc7pw6k7rz66b9e6c6f7crhcd4e'); args=('2022-11-21 09:10:53.237692', '7gqhmbc7pw6k7rz66b9e6c6f7crhcd4e')
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 5; args=(5,)
+"GET /accounts/login/ HTTP/1.1" 302 0
+(0.001) SELECT COUNT(*) AS "__count" FROM "article_articlepost"; args=()
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-11-21 09:10:53.279625' AND "django_session"."session_key" = '7gqhmbc7pw6k7rz66b9e6c6f7crhcd4e'); args=('2022-11-21 09:10:53.279625', '7gqhmbc7pw6k7rz66b9e6c6f7crhcd4e')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 5; args=(5,)
+(0.000) SELECT COUNT(*) AS "__count" FROM "notifications_notification" WHERE ("notifications_notification"."recipient_id" = 5 AND "notifications_notification"."unread" = 1); args=(5, True)
+(0.001) SELECT "article_articlepost"."id", "article_articlepost"."author_id", "article_articlepost"."column_id", "article_articlepost"."avatar", "article_articlepost"."title", "article_articlepost"."body", "article_articlepost"."created", "article_articlepost"."updated", "article_articlepost"."total_views" FROM "article_articlepost" ORDER BY "article_articlepost"."created" DESC  LIMIT 3; args=()
+(0.001) SELECT DISTINCT "taggit_tag"."id", "taggit_tag"."name", "taggit_tag"."slug" FROM "taggit_tag" INNER JOIN "taggit_taggeditem" ON ("taggit_tag"."id" = "taggit_taggeditem"."tag_id") WHERE ("taggit_taggeditem"."content_type_id" = 7 AND "taggit_taggeditem"."object_id" = 31); args=(7, 31)
+(0.000) SELECT COUNT(*) AS "__count" FROM "comment_comment" WHERE "comment_comment"."article_id" = 31; args=(31,)
+(0.001) SELECT "article_articlecolum"."id", "article_articlecolum"."title", "article_articlecolum"."created" FROM "article_articlecolum" WHERE "article_articlecolum"."id" = 2; args=(2,)
+(0.000) SELECT DISTINCT "taggit_tag"."id", "taggit_tag"."name", "taggit_tag"."slug" FROM "taggit_tag" INNER JOIN "taggit_taggeditem" ON ("taggit_tag"."id" = "taggit_taggeditem"."tag_id") WHERE ("taggit_taggeditem"."content_type_id" = 7 AND "taggit_taggeditem"."object_id" = 29); args=(7, 29)
+(0.004) SELECT COUNT(*) AS "__count" FROM "comment_comment" WHERE "comment_comment"."article_id" = 29; args=(29,)
+(0.001) SELECT "article_articlecolum"."id", "article_articlecolum"."title", "article_articlecolum"."created" FROM "article_articlecolum" WHERE "article_articlecolum"."id" = 1; args=(1,)
+(0.000) SELECT DISTINCT "taggit_tag"."id", "taggit_tag"."name", "taggit_tag"."slug" FROM "taggit_tag" INNER JOIN "taggit_taggeditem" ON ("taggit_tag"."id" = "taggit_taggeditem"."tag_id") WHERE ("taggit_taggeditem"."content_type_id" = 7 AND "taggit_taggeditem"."object_id" = 28); args=(7, 28)
+(0.000) SELECT COUNT(*) AS "__count" FROM "comment_comment" WHERE "comment_comment"."article_id" = 28; args=(28,)
+"GET / HTTP/1.1" 200 14275
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-11-21 09:10:56.651988' AND "django_session"."session_key" = '7gqhmbc7pw6k7rz66b9e6c6f7crhcd4e'); args=('2022-11-21 09:10:56.651988', '7gqhmbc7pw6k7rz66b9e6c6f7crhcd4e')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 5; args=(5,)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = '7gqhmbc7pw6k7rz66b9e6c6f7crhcd4e'; args=('7gqhmbc7pw6k7rz66b9e6c6f7crhcd4e',)
+(0.007) DELETE FROM "django_session" WHERE "django_session"."session_key" IN ('7gqhmbc7pw6k7rz66b9e6c6f7crhcd4e'); args=('7gqhmbc7pw6k7rz66b9e6c6f7crhcd4e',)
+"GET /userprofile/logout/ HTTP/1.1" 302 0
+"GET /userprofile/login/ HTTP/1.1" 200 5465
+(0.001) SELECT "django_site"."id", "django_site"."domain", "django_site"."name" FROM "django_site" WHERE "django_site"."id" = 1; args=(1,)
+Exception while resolving variable 'scope' in template 'account/login.html'.
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'scope'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'scope'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'scope'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [scope] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f202dfdcd90>>, 'request': <WSGIRequest: GET '/accounts/login/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7f202ce08588>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f202ced29b0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f202df40518>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <LoginForm bound=False, valid=Unknown, fields=(login;password;remember)>, 'view': <allauth.account.views.LoginView object at 0x7f202df400b8>, 'signup_url': '/accounts/signup/', 'site': <Site: http://127.0.0.1:8000>, 'redirect_field_name': 'next', 'redirect_field_value': None}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="container">\n'>, <django.template.library.SimpleNode object at 0x7f202ced23c8>, <TextNode: '\n            '>, <IfNode>, <TextNode: '\n            <div class="'>, <django.template.defaulttags.URLNode object at 0x7f202ce2c6a0>, <TextNode: '">\n                    '>, <django.template.defaulttags.CsrfTokenNode object at 0x7f202ce2c710>, <TextNode: '\n                    <div'>, <django.template.defaulttags.URLNode object at 0x7f202ced26a0>, <TextNode: '" style="color: cornflowe'>, <django.template.defaulttags.URLNode object at 0x7f202ced2e48>, <TextNode: '">\n                      '>]>, 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202ce206a0>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce3c860>]}, {'process': 'login', 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202dfdbbe0>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202dfdb6a0>]}, {'forloop': {'parentloop': {}, 'counter0': 0, 'counter': 1, 'revcounter': 2, 'revcounter0': 1, 'first': True, 'last': False}, 'provider': <allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202dfdbbe0>}]
+Exception while resolving variable 'auth_params' in template 'account/login.html'.
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'auth_params'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'auth_params'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'auth_params'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [auth_params] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f202dfdcd90>>, 'request': <WSGIRequest: GET '/accounts/login/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7f202ce08588>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f202ced29b0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f202df40518>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <LoginForm bound=False, valid=Unknown, fields=(login;password;remember)>, 'view': <allauth.account.views.LoginView object at 0x7f202df400b8>, 'signup_url': '/accounts/signup/', 'site': <Site: http://127.0.0.1:8000>, 'redirect_field_name': 'next', 'redirect_field_value': None}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="container">\n'>, <django.template.library.SimpleNode object at 0x7f202ced23c8>, <TextNode: '\n            '>, <IfNode>, <TextNode: '\n            <div class="'>, <django.template.defaulttags.URLNode object at 0x7f202ce2c6a0>, <TextNode: '">\n                    '>, <django.template.defaulttags.CsrfTokenNode object at 0x7f202ce2c710>, <TextNode: '\n                    <div'>, <django.template.defaulttags.URLNode object at 0x7f202ced26a0>, <TextNode: '" style="color: cornflowe'>, <django.template.defaulttags.URLNode object at 0x7f202ced2e48>, <TextNode: '">\n                      '>]>, 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202ce206a0>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce3c860>]}, {'process': 'login', 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202dfdbbe0>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202dfdb6a0>]}, {'forloop': {'parentloop': {}, 'counter0': 0, 'counter': 1, 'revcounter': 2, 'revcounter0': 1, 'first': True, 'last': False}, 'provider': <allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202dfdbbe0>}]
+Exception while resolving variable 'scope' in template 'account/login.html'.
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'scope'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'scope'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'scope'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [scope] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f202dfdcd90>>, 'request': <WSGIRequest: GET '/accounts/login/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7f202ce08588>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f202ced29b0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f202df40518>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <LoginForm bound=False, valid=Unknown, fields=(login;password;remember)>, 'view': <allauth.account.views.LoginView object at 0x7f202df400b8>, 'signup_url': '/accounts/signup/', 'site': <Site: http://127.0.0.1:8000>, 'redirect_field_name': 'next', 'redirect_field_value': None}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="container">\n'>, <django.template.library.SimpleNode object at 0x7f202ced23c8>, <TextNode: '\n            '>, <IfNode>, <TextNode: '\n            <div class="'>, <django.template.defaulttags.URLNode object at 0x7f202ce2c6a0>, <TextNode: '">\n                    '>, <django.template.defaulttags.CsrfTokenNode object at 0x7f202ce2c710>, <TextNode: '\n                    <div'>, <django.template.defaulttags.URLNode object at 0x7f202ced26a0>, <TextNode: '" style="color: cornflowe'>, <django.template.defaulttags.URLNode object at 0x7f202ced2e48>, <TextNode: '">\n                      '>]>, 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202ce206a0>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce3c860>]}, {'process': 'login', 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202dfdbbe0>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202dfdb6a0>]}, {'forloop': {'parentloop': {}, 'counter0': 1, 'counter': 2, 'revcounter': 1, 'revcounter0': 0, 'first': False, 'last': True}, 'provider': <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202dfdb6a0>}]
+Exception while resolving variable 'auth_params' in template 'account/login.html'.
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'auth_params'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'auth_params'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'auth_params'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [auth_params] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f202dfdcd90>>, 'request': <WSGIRequest: GET '/accounts/login/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7f202ce08588>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f202ced29b0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f202df40518>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <LoginForm bound=False, valid=Unknown, fields=(login;password;remember)>, 'view': <allauth.account.views.LoginView object at 0x7f202df400b8>, 'signup_url': '/accounts/signup/', 'site': <Site: http://127.0.0.1:8000>, 'redirect_field_name': 'next', 'redirect_field_value': None}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="container">\n'>, <django.template.library.SimpleNode object at 0x7f202ced23c8>, <TextNode: '\n            '>, <IfNode>, <TextNode: '\n            <div class="'>, <django.template.defaulttags.URLNode object at 0x7f202ce2c6a0>, <TextNode: '">\n                    '>, <django.template.defaulttags.CsrfTokenNode object at 0x7f202ce2c710>, <TextNode: '\n                    <div'>, <django.template.defaulttags.URLNode object at 0x7f202ced26a0>, <TextNode: '" style="color: cornflowe'>, <django.template.defaulttags.URLNode object at 0x7f202ced2e48>, <TextNode: '">\n                      '>]>, 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202ce206a0>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce3c860>]}, {'process': 'login', 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202dfdbbe0>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202dfdb6a0>]}, {'forloop': {'parentloop': {}, 'counter0': 1, 'counter': 2, 'revcounter': 1, 'revcounter0': 0, 'first': False, 'last': True}, 'provider': <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202dfdb6a0>}]
+"GET /accounts/login/ HTTP/1.1" 200 7114
+Exception while resolving variable 'scope' in template 'account/login.html'.
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'scope'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'scope'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'scope'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [scope] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f202e35fbf8>>, 'request': <WSGIRequest: GET '/accounts/login/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7f202ce69860>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f202cdd0438>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f202ce69f28>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <LoginForm bound=False, valid=Unknown, fields=(login;password;remember)>, 'view': <allauth.account.views.LoginView object at 0x7f202ce69da0>, 'signup_url': '/accounts/signup/', 'site': <Site: http://127.0.0.1:8000>, 'redirect_field_name': 'next', 'redirect_field_value': None}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="container">\n'>, <django.template.library.SimpleNode object at 0x7f202cdd0390>, <TextNode: '\n            '>, <IfNode>, <TextNode: '\n            <div class="'>, <django.template.defaulttags.URLNode object at 0x7f202ced27b8>, <TextNode: '">\n                    '>, <django.template.defaulttags.CsrfTokenNode object at 0x7f202cdd0be0>, <TextNode: '\n                    <div'>, <django.template.defaulttags.URLNode object at 0x7f202df732e8>, <TextNode: '" style="color: cornflowe'>, <django.template.defaulttags.URLNode object at 0x7f202df73128>, <TextNode: '">\n                      '>]>, 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202dfdb7b8>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce3c0f0>]}, {'process': 'login', 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202ce20828>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce201d0>]}, {'forloop': {'parentloop': {}, 'counter0': 0, 'counter': 1, 'revcounter': 2, 'revcounter0': 1, 'first': True, 'last': False}, 'provider': <allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202ce20828>}]
+Exception while resolving variable 'auth_params' in template 'account/login.html'.
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'auth_params'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'auth_params'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'auth_params'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [auth_params] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f202e35fbf8>>, 'request': <WSGIRequest: GET '/accounts/login/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7f202ce69860>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f202cdd0438>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f202ce69f28>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <LoginForm bound=False, valid=Unknown, fields=(login;password;remember)>, 'view': <allauth.account.views.LoginView object at 0x7f202ce69da0>, 'signup_url': '/accounts/signup/', 'site': <Site: http://127.0.0.1:8000>, 'redirect_field_name': 'next', 'redirect_field_value': None}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="container">\n'>, <django.template.library.SimpleNode object at 0x7f202cdd0390>, <TextNode: '\n            '>, <IfNode>, <TextNode: '\n            <div class="'>, <django.template.defaulttags.URLNode object at 0x7f202ced27b8>, <TextNode: '">\n                    '>, <django.template.defaulttags.CsrfTokenNode object at 0x7f202cdd0be0>, <TextNode: '\n                    <div'>, <django.template.defaulttags.URLNode object at 0x7f202df732e8>, <TextNode: '" style="color: cornflowe'>, <django.template.defaulttags.URLNode object at 0x7f202df73128>, <TextNode: '">\n                      '>]>, 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202dfdb7b8>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce3c0f0>]}, {'process': 'login', 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202ce20828>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce201d0>]}, {'forloop': {'parentloop': {}, 'counter0': 0, 'counter': 1, 'revcounter': 2, 'revcounter0': 1, 'first': True, 'last': False}, 'provider': <allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202ce20828>}]
+Exception while resolving variable 'scope' in template 'account/login.html'.
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'scope'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'scope'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'scope'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [scope] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f202e35fbf8>>, 'request': <WSGIRequest: GET '/accounts/login/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7f202ce69860>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f202cdd0438>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f202ce69f28>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <LoginForm bound=False, valid=Unknown, fields=(login;password;remember)>, 'view': <allauth.account.views.LoginView object at 0x7f202ce69da0>, 'signup_url': '/accounts/signup/', 'site': <Site: http://127.0.0.1:8000>, 'redirect_field_name': 'next', 'redirect_field_value': None}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="container">\n'>, <django.template.library.SimpleNode object at 0x7f202cdd0390>, <TextNode: '\n            '>, <IfNode>, <TextNode: '\n            <div class="'>, <django.template.defaulttags.URLNode object at 0x7f202ced27b8>, <TextNode: '">\n                    '>, <django.template.defaulttags.CsrfTokenNode object at 0x7f202cdd0be0>, <TextNode: '\n                    <div'>, <django.template.defaulttags.URLNode object at 0x7f202df732e8>, <TextNode: '" style="color: cornflowe'>, <django.template.defaulttags.URLNode object at 0x7f202df73128>, <TextNode: '">\n                      '>]>, 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202dfdb7b8>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce3c0f0>]}, {'process': 'login', 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202ce20828>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce201d0>]}, {'forloop': {'parentloop': {}, 'counter0': 1, 'counter': 2, 'revcounter': 1, 'revcounter0': 0, 'first': False, 'last': True}, 'provider': <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce201d0>}]
+Exception while resolving variable 'auth_params' in template 'account/login.html'.
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'auth_params'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'auth_params'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'auth_params'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [auth_params] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f202e35fbf8>>, 'request': <WSGIRequest: GET '/accounts/login/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7f202ce69860>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f202cdd0438>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f202ce69f28>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <LoginForm bound=False, valid=Unknown, fields=(login;password;remember)>, 'view': <allauth.account.views.LoginView object at 0x7f202ce69da0>, 'signup_url': '/accounts/signup/', 'site': <Site: http://127.0.0.1:8000>, 'redirect_field_name': 'next', 'redirect_field_value': None}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="container">\n'>, <django.template.library.SimpleNode object at 0x7f202cdd0390>, <TextNode: '\n            '>, <IfNode>, <TextNode: '\n            <div class="'>, <django.template.defaulttags.URLNode object at 0x7f202ced27b8>, <TextNode: '">\n                    '>, <django.template.defaulttags.CsrfTokenNode object at 0x7f202cdd0be0>, <TextNode: '\n                    <div'>, <django.template.defaulttags.URLNode object at 0x7f202df732e8>, <TextNode: '" style="color: cornflowe'>, <django.template.defaulttags.URLNode object at 0x7f202df73128>, <TextNode: '">\n                      '>]>, 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202dfdb7b8>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce3c0f0>]}, {'process': 'login', 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202ce20828>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce201d0>]}, {'forloop': {'parentloop': {}, 'counter0': 1, 'counter': 2, 'revcounter': 1, 'revcounter0': 0, 'first': False, 'last': True}, 'provider': <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce201d0>}]
+"GET /accounts/login/ HTTP/1.1" 200 7114
+(0.014) SELECT "socialaccount_socialapp"."id", "socialaccount_socialapp"."provider", "socialaccount_socialapp"."name", "socialaccount_socialapp"."client_id", "socialaccount_socialapp"."secret", "socialaccount_socialapp"."key" FROM "socialaccount_socialapp" INNER JOIN "socialaccount_socialapp_sites" ON ("socialaccount_socialapp"."id" = "socialaccount_socialapp_sites"."socialapp_id") WHERE ("socialaccount_socialapp"."provider" = 'github' AND "socialaccount_socialapp_sites"."site_id" = 1); args=('github', 1)
+(0.000) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = '11godib2nv71x66epn64mrjtj4hjpn7n'  LIMIT 1; args=('11godib2nv71x66epn64mrjtj4hjpn7n',)
+(0.000) BEGIN; args=None
+(0.001) INSERT INTO "django_session" ("session_key", "session_data", "expire_date") SELECT '11godib2nv71x66epn64mrjtj4hjpn7n', 'MjRlMjFmMGM1NzA4NjhjM2QxZTJmYjYwNmMzNmMwMmE0MGE0NjQ0Mzp7InNvY2lhbGFjY291bnRfc3RhdGUiOlt7InByb2Nlc3MiOiJsb2dpbiIsInNjb3BlIjoiIiwiYXV0aF9wYXJhbXMiOiIifSwieTAyZkZ4Y3JyeWE3Il19', '2022-12-05 09:11:17.206270'; args=('11godib2nv71x66epn64mrjtj4hjpn7n', 'MjRlMjFmMGM1NzA4NjhjM2QxZTJmYjYwNmMzNmMwMmE0MGE0NjQ0Mzp7InNvY2lhbGFjY291bnRfc3RhdGUiOlt7InByb2Nlc3MiOiJsb2dpbiIsInNjb3BlIjoiIiwiYXV0aF9wYXJhbXMiOiIifSwieTAyZkZ4Y3JyeWE3Il19', '2022-12-05 09:11:17.206270')
+"GET /accounts/github/login/?process=login HTTP/1.1" 302 0
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ìiKÓ$¼tZ')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+
+code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-11-21 09:14:23.189441' AND "django_session"."session_key" = '11godib2nv71x66epn64mrjtj4hjpn7n'); args=('2022-11-21 09:14:23.189441', '11godib2nv71x66epn64mrjtj4hjpn7n')
+Exception while resolving variable 'scope' in template 'account/login.html'.
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'scope'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'scope'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'scope'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [scope] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f202dfc8e18>>, 'request': <WSGIRequest: GET '/accounts/login/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7f202df4dac8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f202ce2c4a8>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f202e066a58>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <LoginForm bound=False, valid=Unknown, fields=(login;password;remember)>, 'view': <allauth.account.views.LoginView object at 0x7f202e0669e8>, 'signup_url': '/accounts/signup/', 'site': <Site: http://127.0.0.1:8000>, 'redirect_field_name': 'next', 'redirect_field_value': None}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="container">\n'>, <django.template.library.SimpleNode object at 0x7f202ce2c550>, <TextNode: '\n            '>, <IfNode>, <TextNode: '\n            <div class="'>, <django.template.defaulttags.URLNode object at 0x7f202ce2c4e0>, <TextNode: '">\n                    '>, <django.template.defaulttags.CsrfTokenNode object at 0x7f202ce08240>, <TextNode: '\n                    <div'>, <django.template.defaulttags.URLNode object at 0x7f202ce5f4e0>, <TextNode: '" style="color: cornflowe'>, <django.template.defaulttags.URLNode object at 0x7f202ce5fd30>, <TextNode: '">\n                      '>]>, 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202ce5bbe0>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce5bac8>]}, {'process': 'login', 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202ce3c278>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce3cf28>]}, {'forloop': {'parentloop': {}, 'counter0': 0, 'counter': 1, 'revcounter': 2, 'revcounter0': 1, 'first': True, 'last': False}, 'provider': <allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202ce3c278>}]
+Exception while resolving variable 'auth_params' in template 'account/login.html'.
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'auth_params'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'auth_params'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'auth_params'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [auth_params] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f202dfc8e18>>, 'request': <WSGIRequest: GET '/accounts/login/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7f202df4dac8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f202ce2c4a8>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f202e066a58>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <LoginForm bound=False, valid=Unknown, fields=(login;password;remember)>, 'view': <allauth.account.views.LoginView object at 0x7f202e0669e8>, 'signup_url': '/accounts/signup/', 'site': <Site: http://127.0.0.1:8000>, 'redirect_field_name': 'next', 'redirect_field_value': None}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="container">\n'>, <django.template.library.SimpleNode object at 0x7f202ce2c550>, <TextNode: '\n            '>, <IfNode>, <TextNode: '\n            <div class="'>, <django.template.defaulttags.URLNode object at 0x7f202ce2c4e0>, <TextNode: '">\n                    '>, <django.template.defaulttags.CsrfTokenNode object at 0x7f202ce08240>, <TextNode: '\n                    <div'>, <django.template.defaulttags.URLNode object at 0x7f202ce5f4e0>, <TextNode: '" style="color: cornflowe'>, <django.template.defaulttags.URLNode object at 0x7f202ce5fd30>, <TextNode: '">\n                      '>]>, 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202ce5bbe0>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce5bac8>]}, {'process': 'login', 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202ce3c278>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce3cf28>]}, {'forloop': {'parentloop': {}, 'counter0': 0, 'counter': 1, 'revcounter': 2, 'revcounter0': 1, 'first': True, 'last': False}, 'provider': <allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202ce3c278>}]
+Exception while resolving variable 'scope' in template 'account/login.html'.
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'scope'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'scope'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'scope'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [scope] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f202dfc8e18>>, 'request': <WSGIRequest: GET '/accounts/login/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7f202df4dac8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f202ce2c4a8>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f202e066a58>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <LoginForm bound=False, valid=Unknown, fields=(login;password;remember)>, 'view': <allauth.account.views.LoginView object at 0x7f202e0669e8>, 'signup_url': '/accounts/signup/', 'site': <Site: http://127.0.0.1:8000>, 'redirect_field_name': 'next', 'redirect_field_value': None}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="container">\n'>, <django.template.library.SimpleNode object at 0x7f202ce2c550>, <TextNode: '\n            '>, <IfNode>, <TextNode: '\n            <div class="'>, <django.template.defaulttags.URLNode object at 0x7f202ce2c4e0>, <TextNode: '">\n                    '>, <django.template.defaulttags.CsrfTokenNode object at 0x7f202ce08240>, <TextNode: '\n                    <div'>, <django.template.defaulttags.URLNode object at 0x7f202ce5f4e0>, <TextNode: '" style="color: cornflowe'>, <django.template.defaulttags.URLNode object at 0x7f202ce5fd30>, <TextNode: '">\n                      '>]>, 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202ce5bbe0>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce5bac8>]}, {'process': 'login', 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202ce3c278>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce3cf28>]}, {'forloop': {'parentloop': {}, 'counter0': 1, 'counter': 2, 'revcounter': 1, 'revcounter0': 0, 'first': False, 'last': True}, 'provider': <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce3cf28>}]
+Exception while resolving variable 'auth_params' in template 'account/login.html'.
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'auth_params'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'auth_params'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'auth_params'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [auth_params] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f202dfc8e18>>, 'request': <WSGIRequest: GET '/accounts/login/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7f202df4dac8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f202ce2c4a8>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f202e066a58>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <LoginForm bound=False, valid=Unknown, fields=(login;password;remember)>, 'view': <allauth.account.views.LoginView object at 0x7f202e0669e8>, 'signup_url': '/accounts/signup/', 'site': <Site: http://127.0.0.1:8000>, 'redirect_field_name': 'next', 'redirect_field_value': None}, {'block': <Block Node: content. Contents: [<TextNode: '\n<div class="container">\n'>, <django.template.library.SimpleNode object at 0x7f202ce2c550>, <TextNode: '\n            '>, <IfNode>, <TextNode: '\n            <div class="'>, <django.template.defaulttags.URLNode object at 0x7f202ce2c4e0>, <TextNode: '">\n                    '>, <django.template.defaulttags.CsrfTokenNode object at 0x7f202ce08240>, <TextNode: '\n                    <div'>, <django.template.defaulttags.URLNode object at 0x7f202ce5f4e0>, <TextNode: '" style="color: cornflowe'>, <django.template.defaulttags.URLNode object at 0x7f202ce5fd30>, <TextNode: '">\n                      '>]>, 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202ce5bbe0>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce5bac8>]}, {'process': 'login', 'socialaccount_providers': [<allauth.socialaccount.providers.github.provider.GitHubProvider object at 0x7f202ce3c278>, <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce3cf28>]}, {'forloop': {'parentloop': {}, 'counter0': 1, 'counter': 2, 'revcounter': 1, 'revcounter0': 0, 'first': False, 'last': True}, 'provider': <allauth.socialaccount.providers.weibo.provider.WeiboProvider object at 0x7f202ce3cf28>}]
+"GET /accounts/login/ HTTP/1.1" 200 7116
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-11-21 09:14:26.566939' AND "django_session"."session_key" = '11godib2nv71x66epn64mrjtj4hjpn7n'); args=('2022-11-21 09:14:26.566939', '11godib2nv71x66epn64mrjtj4hjpn7n')
+"GET /userprofile/login/ HTTP/1.1" 200 5467
+File /root/djangoxm/practice/django_project/my_blog/my_blog/settings.py previous mtime: 1669021663.639356, current mtime: 1669022206.649806
+/root/djangoxm/practice/django_project/my_blog/my_blog/settings.py notified as changed. Signal results: [(<function translation_file_changed at 0x7f2030e38048>, None)].
+/root/djangoxm/practice/django_project/my_blog/my_blog/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /userprofile/login/ HTTP/1.1" 200 5467
+"GET /userprofile/login/ HTTP/1.1" 200 5467
+Internal Server Error: /article/article-detail/9999/
+Traceback (most recent call last):
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/djangoxm/practice/django_project/my_blog/article/views.py", line 58, in article_detail
+    article = ArticlePost.objects.get(id=id)
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/djangoxm/practice/django_project/env/lib/python3.7/site-packages/django/db/models/query.py", line 408, in get
+    self.model._meta.object_name
+article.models.ArticlePost.DoesNotExist: ArticlePost matching query does not exist.
+"GET /article/article-detail/9999/ HTTP/1.1" 500 81994
+/root/djangoxm/practice/django_project/my_blog/article/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /article/article-detail/9999/
+"GET /article/article-detail/9999/ HTTP/1.1" 404 1780
+/root/djangoxm/practice/django_project/my_blog/my_blog/settings.py changed, reloading.

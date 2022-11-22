@@ -1,0 +1,17 @@
+from django.urls import path
+
+from userprofile import views
+
+urlpatterns = [
+    #用户登陆
+    path('login/',views.user_login,name='login'),
+    #用户退出
+    path('logout/',views.user_logout,name='user_logout'),
+    #用户注册
+    path('register/',views.user_register,name='register'),
+    #用户删除
+    path('delete/<int:id>/',views.user_delete,name='delete'),
+    #用户信息
+    path('edit/<int:id>/',views.profile_edit,name='edit'),
+]
+app_name = 'userprofile'
